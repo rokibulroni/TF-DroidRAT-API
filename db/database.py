@@ -21,4 +21,4 @@ def auth_db():
 
 
 async def tear_drive():
-    return deta.Drive("teardroid")
+    return deta.Drive("TF-DROIDRAT")
